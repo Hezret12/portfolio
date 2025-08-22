@@ -109,13 +109,13 @@ export default function OverviewSection() {
                   <div>
                     <h3 className="text-xl sm:text-2xl md:text-3xl font-bold mb-3 md:mb-4 text-gray-900 dark:text-white flex items-center gap-2 md:gap-3">
                       <span className="text-2xl sm:text-3xl md:text-4xl">👋</span>
-                      Hello, I&apos;m Muhammad Ramazan
+                      Hello, I&apos;m Hezret Meretgylyjov
                     </h3>
                     <p className="text-base md:text-lg lg:text-xl text-gray-600 dark:text-gray-300 leading-relaxed mb-4 md:mb-6">
-                      A passionate <span className="font-bold text-blue-600 dark:text-blue-400">Full Stack Developer</span> and
+                      A passionate <span className="font-bold text-blue-600 dark:text-blue-400">Frontend Developer</span> and
                       <span className="font-bold text-purple-600 dark:text-purple-400">
                         &nbsp; AI enthusiast</span> with
-                      <span className="font-bold text-green-600 dark:text-green-400"> 5+ years</span> of experience crafting
+                      <span className="font-bold text-green-600 dark:text-green-400"> 1.5+ years</span> of experience crafting
                       digital experiences that users love.
                     </p>
                   </div>
@@ -123,7 +123,7 @@ export default function OverviewSection() {
                   {/* Expanded About Content */}
                   <div className="space-y-3 md:space-y-4 border-t border-gray-200/50 dark:border-gray-700/50 pt-4 md:pt-6">
                     <p className="text-sm md:text-base text-gray-700 dark:text-gray-300 leading-relaxed">
-                      I specialize in building scalable web and mobile applications using React, Next.js, TypeScript,
+                      I specialize in building scalable web using React, Next.js, TypeScript,
                       and modern development technologies. I thrive on turning complex problems into elegant solutions
                       that users love.
                     </p>
@@ -141,7 +141,7 @@ export default function OverviewSection() {
                       Core Technologies
                     </h4>
                     <div className="flex flex-wrap gap-2 md:gap-3">
-                      {["AI Integration", "React", "Next.js", "TypeScript", "Node.js", "Python", "AWS", "UI/UX Design", "Healthcare IT"].map((skill, index) => (
+                      {["AI Integration", "React", "Next.js", "TypeScript", "Node.js","UI/UX Design"].map((skill, index) => (
                         <motion.span
                           key={skill}
                           initial={{ opacity: 0, scale: 0 }}
@@ -161,7 +161,7 @@ export default function OverviewSection() {
 
               {/* Professional Roles Grid */}
               <div className="grid md:grid-cols-2 gap-4 md:gap-6">
-                <motion.div
+                {/* <motion.div
                   variants={itemVariants}
                   whileHover={{ scale: 1.02, y: -5 }}
                   className="p-4 md:p-6 rounded-xl md:rounded-2xl bg-gradient-to-br from-blue-50/80 to-blue-100/50 dark:from-blue-950/30 dark:to-blue-900/20 backdrop-blur-sm border border-blue-200/50 dark:border-blue-800/30 shadow-xl flex flex-col"
@@ -184,9 +184,9 @@ export default function OverviewSection() {
                     <Icon icon="solar:star-bold" className="text-yellow-500 w-3 md:w-4 h-3 md:h-4" width={16} height={16} />
                     <span className="font-semibold text-green-600 dark:text-green-400">Top Rated • 91% Success Score</span>
                   </div>
-                </motion.div>
+                </motion.div> */}
 
-                <motion.div
+                {/* <motion.div
                   variants={itemVariants}
                   whileHover={{ scale: 1.02, y: -5 }}
                   className="p-4 md:p-6 rounded-xl md:rounded-2xl bg-gradient-to-br from-green-50/80 to-green-100/50 dark:from-green-950/30 dark:to-green-900/20 backdrop-blur-sm border border-green-200/50 dark:border-green-800/30 shadow-xl flex flex-col"
@@ -209,7 +209,7 @@ export default function OverviewSection() {
                     <Icon icon="solar:shield-check-bold" className="text-blue-500 w-3 md:w-4 h-3 md:h-4" width={16} height={16} />
                     <span className="font-semibold text-blue-600 dark:text-blue-400">Healthcare IT Specialist</span>
                   </div>
-                </motion.div>
+                </motion.div> */}
               </div>
             </div>
           </motion.div>
@@ -233,7 +233,7 @@ export default function OverviewSection() {
                     <Icon icon="solar:letter-bold" className="text-white w-4 h-4" width={16} height={16} />
                   </div>
                   <div>
-                    <div className="text-sm font-bold text-gray-900 dark:text-white break-all">mramazan1@yahoo.com</div>
+                    <div className="text-sm font-bold text-gray-900 dark:text-white break-all">hezret710@gmail.com</div>
                   </div>
                 </motion.a>
 
@@ -242,10 +242,10 @@ export default function OverviewSection() {
                   className="flex items-center gap-3 p-3 rounded-lg bg-white/70 dark:bg-gray-800/30 border border-white/20 dark:border-gray-700/30"
                 >
                   <div className="p-1 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-md shadow-md">
-                    <Icon icon="solar:global-bold" className="text-white w-4 h-4" width={16} height={16} />
+                    <Icon icon="fa7-solid:phone" className="text-white w-3 h-3" width={15} height={15} />
                   </div>
                   <div>
-                    <div className="text-sm font-bold text-gray-900 dark:text-white">mramazan.dev</div>
+                    <div className="text-sm font-bold text-gray-900 dark:text-white">+993 64 67 51 61</div>
                   </div>
                 </motion.div>
 
@@ -257,7 +257,7 @@ export default function OverviewSection() {
                     <Icon icon="solar:map-point-bold" className="text-white w-4 h-4" width={16} height={16} />
                   </div>
                   <div>
-                    <div className="text-sm font-bold text-gray-900 dark:text-white">Islamabad, Pakistan</div>
+                    <div className="text-sm font-bold text-gray-900 dark:text-white">Turkmenistan, Ashgabat</div>
                   </div>
                 </motion.div>
               </div>
@@ -267,13 +267,13 @@ export default function OverviewSection() {
             <div className="p-6 rounded-2xl bg-gradient-to-br from-amber-50/90 to-yellow-50/90 dark:from-amber-950/30 dark:to-yellow-950/30 backdrop-blur-sm border border-white/30 dark:border-gray-700/40 shadow-xl">
               <h4 className="font-bold text-gray-900 dark:text-white mb-6 flex items-center gap-2">
                 <Icon icon="solar:cup-star-bold" className="text-amber-600 w-5 h-5" width={20} height={20} />
-                Achievements
+                Skills
               </h4>
               <div className="space-y-4">
                 {[
-                  { icon: "solar:star-bold", text: "Top Rated on Upwork", color: "text-yellow-600" },
-                  { icon: "solar:cpu-bolt-bold-duotone", text: "Expert in AI Integration", color: "text-blue-600" },
-                  { icon: "solar:code-square-bold", text: "50+ Projects Delivered", color: "text-green-600" },
+              { icon: "solar:code-bold", text: "React.js & Next.js", color: "text-blue-600" },
+              { icon: "solar:server-bold", text: "Node.js & Express", color: "text-green-600" },
+              { icon: "solar:palette-bold", text: "UI/UX Design", color: "text-purple-600" },
                 ].map((achievement, index) => (
                   <motion.div
                     key={index}
@@ -290,7 +290,7 @@ export default function OverviewSection() {
             </div>
 
             {/* Available for Hire */}
-            <div className="p-6 rounded-2xl bg-gradient-to-br from-emerald-50/90 to-cyan-50/90 dark:from-emerald-950/30 dark:to-cyan-950/30 backdrop-blur-sm border border-white/30 dark:border-gray-700/40 shadow-xl">
+            {/* <div className="p-6 rounded-2xl bg-gradient-to-br from-emerald-50/90 to-cyan-50/90 dark:from-emerald-950/30 dark:to-cyan-950/30 backdrop-blur-sm border border-white/30 dark:border-gray-700/40 shadow-xl">
               <h4 className="font-bold text-gray-900 dark:text-white mb-6 flex items-center gap-2">
                 <Icon icon="solar:rocket-bold" className="text-emerald-600 w-5 h-5" width={20} height={20} />
                 Available for Hire
@@ -323,8 +323,8 @@ export default function OverviewSection() {
                   <Icon icon="solar:clock-circle-bold" className="text-blue-600 w-5 h-5" width={20} height={20} />
                   <span className="text-sm font-medium text-gray-800 dark:text-gray-300">Remote & On-site Available</span>
                 </motion.div>
-              </div>
-            </div>
+              </div> */}
+            {/* </div> */}
           </motion.div>
         </div>
       </motion.div>

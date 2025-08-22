@@ -43,7 +43,7 @@ export default function ContactSection() {
           from_name: formData.name,
           from_email: formData.email,
           message: formData.message,
-          to_email: 'lightify6@gmail.com', // Your email
+          to_email: 'hezret710@gmail.com', // Your email
         },
         publicKey
       );
@@ -224,7 +224,7 @@ export default function ContactSection() {
                     <span className="font-medium">Failed to send message</span>
                   </div>
                   <p className="text-red-600 text-left dark:text-red-500 text-sm mt-1">
-                    Please try again or contact me directly at lightify6@gmail.com
+                    Please try again or contact me directly at hezret710@gmail.com
                   </p>
                   {/* add a button to close the message */}
                   <button
@@ -247,7 +247,7 @@ export default function ContactSection() {
           transition={{ duration: 0.8, delay: 1.1 }}
           viewport={{ once: true }}
         >
-          <p className="text-gray-600 dark:text-gray-400 mb-6">Or reach out directly:</p>
+          {/* <p className="text-gray-600 dark:text-gray-400 mb-6">Or reach out directly:</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
               <Link
@@ -268,7 +268,7 @@ export default function ContactSection() {
                 Download CV
               </Link>
             </motion.div>
-          </div>
+          </div> */}
         </motion.div>
       </div>
     </motion.section>

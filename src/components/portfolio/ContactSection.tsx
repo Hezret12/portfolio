@@ -3,7 +3,6 @@
 import emailjs from '@emailjs/browser';
 import { Icon } from "@iconify/react";
 import { motion } from "framer-motion";
-import Link from "next/link";
 import { useState } from "react";
 import SectionHeader from './SectionHeader';
 

@@ -76,14 +76,5 @@ portfolio/
 
 This project is open source and available under the [MIT License](LICENSE).
 
-## 🙏 Acknowledgments
-
-- **Framer Motion** - Amazing animation library
-- **Tailwind CSS** - Utility-first CSS framework
-- **Next.js Team** - Excellent React framework
-- **Iconify** - Beautiful icon library
-
----
-
 
 _This portfolio demonstrates modern web development practices and showcases the beauty of well-crafted user interfaces._

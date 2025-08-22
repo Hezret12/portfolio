@@ -10,14 +10,14 @@ export default function TypewriterRole() {
 
   const roles = [
     "Frontend Developer",
-    // "Software Engineer",
+    "Software Engineer",
     // "Systems Designer",
     // "AI Enthusiast"
   ];
 
   // Typewriter effect
   useEffect(() => {
-    const currentRole = roles[currentRoleIndex];
+    const currentRole = roles[0];
     const timeout = setTimeout(() => {
       if (!isDeleting) {
         if (displayText.length < currentRole.length) {

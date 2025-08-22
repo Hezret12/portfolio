@@ -2,16 +2,13 @@
 
 import {
   Background,
-  CertificationsSection,
   ContactSection,
   ExperienceSection,
   Footer,
   HeroSection,
   Navigation,
   OverviewSection,
-  ProjectsSection,
   TechStackSection,
-  TestimonialsSection
 } from "@/components/portfolio";
 
 export default function Portfolio() {

@@ -36,7 +36,26 @@ const experience = [
     "Provided training and documentation for end-users and support staff"
   ],
     technologies: ["React", "Typescript", "Node.js","Ant design"]
+  },
+  {
+    role: "Frontend Developer",
+    company: "Hasabym Group",
+    period: "August 2025 – Present",
+    type: "Part-time",
+    companyColor: "from-red-500 via-yellow-500 to-green-500",
+    companyIcon: "mdi:alpha-h", 
+    description: "Currently developing and maintaining Kosmos and Tudana Admin Pages — modern, scalable platforms designed to streamline data management, analytics, and user role administration with an elegant and intuitive interface.",
+    achievements: [
+      "Built core UI architecture for Kosmos and Tudana Admin Panels with reusable React components",
+      "Implemented role-based access control (RBAC) for secure and flexible user management",
+      "Developed interactive dashboards for real-time analytics and system insights",
+      "Enhanced CRUD performance and improved accessibility across modules",
+      "Collaborated closely with backend teams to integrate RESTful APIs and ensure data reliability",
+      "Continuously optimizing performance and adding new features based on client feedback"
+    ],
+    technologies: ["React", "TypeScript", "Node.js", "Material UI", "TanStack Query"]
   }
+
 ];
 
 export default function ExperienceSection() {
